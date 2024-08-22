@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Documento entrega TP HTML</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }      
+            header,
+            footer{
+                background-color: grey;
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
+                 main{
+                padding: 10px;
+            }
+    
+            
+        </style>
+    </head>
+<body>
+    <header>
+        <h1>
+            Cabecera del cuerpo
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#EnlaceInterno1"> Estructura</a></li>
+            <li><a href="#Multimedia1">Multimedia</a></li>
+            <li> <a href="#Formulario"> Formulario</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="EnlaceInterno1">
+            <h1>
+                1. Estructura Básica del Documento HTML
+            </h1>
+        
+            <p>
+                Este documento HMTL tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.
+            </p>
+        </section>
+        <section id="EnlaceInterno2"> 
+            <h1>
+                2. Encabezados y Propiedades del Texto
+            </h1>
+            <p>
+                <b>Este es un texto en negrita</b>
+            </p>
+            <p style="color:violet;">
+                <em>Este es un texto en cursiva</em>
+            </p>
+            <p style="font-family:courier;">
+                <u>Este es un texto subrayado</u>
+            </p>
+            <h2>
+                Este es un texto
+            </h2>
+            <h3>
+                Este es un texto
+            </h3>
+            <h4>
+                Este es un texto
+            </h4>
+            <h5>
+                Este es un texto
+            </h5>
+            <h6>
+                Este es un texto
+            </h6>
+        </section>
+        <h1>
+            3. Divisiones y Agrupación de Contenido
+        </h1>
+        <div>
+            <h2>
+                Sección  1
+            </h2>
+            <p>
+                Contenido de la primera sección agrupada en un div.
+            </p>
+        </div>
+        <div>
+            <h2>
+                Sección  2
+            </h2>
+            <p>
+                Contenido de la primera sección agrupada en un div.
+            </p>
+        </div>
+        <h1>
+            4. Enlaces y Listas
+        </h1>
+        <p>
+            <a href="https://www.enlace.org/envivo/" target="_blank">Enlace    </a> a una Página Externa
+        </p>
+        <p> 
+            Enlaces internos:
+        </p>
+        <ul>
+            <li><a href="#EnlaceInterno1">Ir a "1 . Estructura Básica del Documento HTML" </a></li>
+            <li><a href="#EnlaceInterno2">Ir a "2. Encabezados y Propiedades del Texto"</a></li>
+        </ul>
+        <p>
+            Lista desordenada:
+            <ul>
+                <li>
+                    Primer ítem de una lista desordenada
+                </li>
+                <li>
+                    Segundo ítem de una lista desordenada
+                </li>
+            </ul>
+            <ol>
+                <li>
+                    Primer ítem de una lista ordenada
+                </li>
+                <li>
+                    Segundo ítem de una lista ordenada
+                </li>
+            </ol>
+        </p>
+        <h1 id="Multimedia1">
+            5. Elementos Multimedia
+        </h1>
+        <div>
+            <img 
+                src="https://cdn.hmv.com/r/w-1280/p-webp/hmv/files/2c/2c67b174-d11e-4da9-b098-e85a06be2544.jpg" 
+                width="150" height="200"
+                alt="Es una imágen"
+            />
+            <video 
+            src="https://ia801809.us.archive.org/18/items/bloodsport-1988/Bloodsport.1988.1080p.BrRip.x264.YIFY.mp4" 
+            controls width="340px" height="200px"
+            />
+            <audio
+            src="https://ia800703.us.archive.org/11/items/04.FlashbackMontageFlashbackMartialScienceFatherAndSonTrainingTreeAndSword/10.%20Fight%20to%20Survive%20part%201.mp3"
+            controls
+            />
+        </div>
+       <div>
+        <audio
+            src="https://ia800703.us.archive.org/11/items/04.FlashbackMontageFlashbackMartialScienceFatherAndSonTrainingTreeAndSword/10.%20Fight%20to%20Survive%20part%201.mp3"
+            controls
+        />
+       </div>
+        <h1>
+            6. Tablas
+        </h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>
+                        Columna 1
+                    </th>
+                    <th>
+                        Columna 2
+                    </th>
+                    <th>
+                        Columna 3
+                    </th>
+                    <th>
+                        Columna 4
+                    </th>
+                    <th>
+                        Columna 5
+                    </th>
+                </tr>
+            </thead>
+                <tr>
+                    <td>
+                        Dato 1        
+                    </td>
+                    <td>
+                        Dato 2
+                    </td>
+                    <td>
+                        Dato 3
+                    </td>
+                    <td>
+                        Dato 4
+                    </td>
+                    <td>
+                        Dato 5
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Dato 6        
+                    </td>
+                    <td>
+                        Dato 7
+                    </td>
+                    <td>
+                        Dato 8
+                    </td>
+                    <td>
+                        Dato 9
+                    </td>
+                    <td>
+                        Dato 10
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Dato 11       
+                    </td>
+                    <td>
+                        Dato 12
+                    </td>
+                    <td>
+                        Dato 13
+                    </td>
+                    <td>
+                        Dato 14
+                    </td>
+                    <td>
+                        Dato 15
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Dato 16       
+                    </td>
+                    <td>
+                        Dato 17
+                    </td>
+                    <td>
+                        Dato 18
+                    </td>
+                    <td>
+                        Dato 19
+                    </td>
+                    <td>
+                        Dato 20
+                    </td>
+                </tr>
+            <tbody>
+    
+            </tbody>
+            <tfoot>
+    
+            </tfoot>
+        </table>
+        <section id="Formulario">
+            <h1>Form</h1>
+            <form>
+            <label>Nombre :</label>
+            <input   placeholder="Ingrese Nombre"  />
+            <label>Email:</label>
+            <input type="email"  placeholder="Example@Example.com"  />
+            <label> Mensaje:</label>
+            <textarea></textarea>
+            <button type="submit"> Enviar</button>
+    
+            </form>
+     
+        </section>
+    </main>
+    
+    <footer>
+        <p > <br/> 2024 Trabajo Práctico HTML</p>
+    </footer>
+       
+
+
+
+
+</body>
+</html>
