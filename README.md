@@ -1,3 +1,4 @@
+Pasos para ejecutar el archivo html:
 *Opción 1
 _Descomprimir el Archivo
 _Seleccionar la carpeta del Archivo 
